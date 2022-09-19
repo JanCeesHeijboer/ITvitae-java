@@ -1,0 +1,41 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int hit = 0;
+        String antwoord;
+        while (hit == 0) {
+
+            System.out.println("Geef een geheel, positief getal: ");
+
+            int Lucasgetal = input.nextInt();
+
+            if (Lucasgetal > 0) {
+                lucasReeks(Lucasgetal);
+                hit = 1;
+
+            } else {
+                System.out.println("Dit is geen geheel, positief getal! / n");
+                hit = 0;
+
+            }
+
+            System.out.println("Nogmaals [y/n]?");
+
+            if (input.hasNext()) {
+            }
+            antwoord = input.next();
+            if (antwoord.toLowerCase().equals("y")) {
+                hit = 0;
+            } else {
+                hit = 1;
+                hit = 1;
+            }
+        }
+    }
+    static void lucasReeks(int aantal){
+
+    }
+}
