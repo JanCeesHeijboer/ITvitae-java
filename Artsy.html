@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdrachtWeekTwee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            background-color: #f6f6f6;
+            box-sizing: border-box;
+            margin: 0;
+            border: none;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        .flexbox {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px 0;
+        }
+
+        .linkjes>a {
+            padding: 6px 12px;
+        }
+
+        h1 {
+            font-size: 5rem;
+            text-align: center;
+            line-height: 1;
+        }
+
+        h2 {
+            font-family: 'DynaPuff';
+            color: #5D66F3;
+            position: center;
+        }
+
+        .brand-color {
+            color: #5D66F3;
+            font-family: 'DynaPuff';
+        }
+
+        .header {
+            font-family: Poppins;
+            accent-color: #5D66F3;
+            background-color: #f6f6f6;
+            color: #212121;
+        }
+
+        .button {
+            color: #f6f6f6;
+            font-size: 21px;
+            text-align: center;
+            background-color: #5D66F3;
+            cursor: pointer;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin: 4px, 2px;
+            border-radius: 15px;
+        }
+
+        .images {
+            width: 15%;
+            height: 48vh;
+            border-radius: 999px;
+            overflow: hidden;
+            flex-shrink: 0;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .images>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .images:hover {
+            transform: translate(0, -20px);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .flexbox2 {
+            gap: 20px;
+        }
+
+        .flexbox3 {
+            gap: 150px;
+            display: flex;
+            justify-content: center;
+            padding: 150px;
+        }
+
+        .flexbox4 {
+            gap: 450px;
+            display: flex;
+            justify-content: center;
+            padding: 8rem;
+            padding-top: 0rem;
+
+        }
+
+        .body {
+            font-family: Open Sans;
+            color: #212121;
+        }
+
+        .accent {
+            color: #5D66F3;
+
+        }
+
+        .links {
+            background-color: #ffffff;
+            color: rgba(0, 0, 0, 0);
+            padding: 150px;
+        }
+
+        .links>a:visited {
+            color: #f6f6f6;
+        }
+
+        .The_eye {
+            transform: rotate(350deg);
+            padding: 35px;
+            background-color: white;
+            position: relative;
+        }
+
+        .Orange_shades_blue {
+            transform: rotate(10deg);
+            padding: 35px;
+            background-color: white;
+            position: relative;
+            top: -100px;
+        }
+
+        .Orange_shades {
+            transform: rotate(350deg);
+            padding: 35px;
+            background-color: white;
+            position: relative;
+        }
+
+        .flexbox5 {
+            text-align: left;
+            justify-content: center;
+            padding-left: 8rem;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0);
+            color: rgba(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="flexbox">
+                    <h2>Artsy</h2>
+                    <div class='linkjes'>
+                        <a href="https://itvitae.nl/over-ons">About us</a>
+                        <a href="https://itvitae.nl/">Art gallery</a>
+                        <a href="https://itvitae.nl/nieuws">Sell yours</a>
+                    </div>
+                    <a href="https://itvitae.nl/contact"><button class="button" type="button">Contact</button></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1>Buy art from the most <br><span class='brand-color'>creative</span> artists</h1>
+        </div>
+        <div class="flexbox flexbox2">
+            <figure class="images"><img src="../../Media/artist (7).jpg" alt="Painter X" width="300px" height="300px"
+                    object-fit="cover" ;></figure>
+            <figure class="images"><img src="../../Media/artist (6).jpg" alt="John Doe" width="300px" height="300px">
+            </figure>
+            <figure class="images"><img src="../../Media/artist (5).jpg" alt="artist 5" width="300px" height="300px">
+            </figure>
+            <figure class="images"><img src="../../Media/artist (4).jpg" alt="artist 4" width="300px" height="300px">
+            </figure>
+            <figure class="images"><img src="../../Media/artist (3).jpg" alt="artist 3" width="300px" height="300px">
+            </figure>
+            <figure class="images"><img src="../../Media/artist (2).jpg" alt="artist 2" width="300px" height="300px">
+            </figure>
+            <figure class="images"><img src="../../Media/artist (1).jpg" alt="artist 1" width="300px" height="300px">
+            </figure>
+        </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="links"></div>
+        <a href="https://www.artsy.net/partner/new-art-editions">New art</a>
+        <a href="https://www.artsy.net/search?term=speed">Speed art</a>
+        <a href="https://soundcloud.com/artsypodcast">Podcast</a>
+        </div>
+        <div class="container">
+            <h3>
+                <span class="accent"><u>New</u></span> art
+            </h3>
+            <div class="flexbox3">
+
+                <figure class="The_eye">
+                    <img src="../../Media/The eye, painter X.jpg" alt="The eye" width="300px" height="300px">
+                </figure>
+
+                <figure class="Orange_shades_blue">
+                    <img src="../../Media/art (3).jpg" alt="Orange shades" width="300px" height="300px">
+                </figure>
+
+                <figure class="Orange_shades">
+                    <img src="../../Media/Orange Shades, John Doe.jpg" alt="Orange shades" width="300px" height="300px">
+                </figure>
+
+            </div>
+        </div>
+        <div class="flexbox4">
+            <h3>The eye <br> Painter X <br> $12.000</h3>
+            <h3>Orange Shades <br>John Doe<br> $12.000</h3>
+            <h3>Orange Shades <br>John Doe<br> $12.000</h3>
+        </div>
+        <div class="flexbox5">
+            <h3>
+                <span><u>Watch</u></span> amazing artists at work
+            </h3>
+            <video controls autoplay muted>
+                <source src="../../Media/mp4file.mp4" type=video/mp4>
+            </video>
+            <figcaption>figcaption: Speed painting from Artist X</figcaption>
+        </div>
+        <h3>Interview with <br> artist of the week</h3>
+        <span><u>Podcast:</u></span>
+        <audio controls autoplay muted>
+            <source src="../../Media/mp3file.mp3" type=audio/mp3>
+        </audio>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aenean <br>
+            Commoda ligula elet dolor. Aenean massa. Cum sociis natoque <br>
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br>
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. <br>
+            Nulla consequat massa quis enim. </h6>
+    </main>
+
+    <footer>
+        <h2>Artsy</h2>
+        <h6>Happy paintings nascetur<br>ridiculus mus. Donec quam felis.</h6>
+        <h3>About us</h3>
+        <h3>Art gallery</h3>
+        <h3>Sell your arts</h3>
+        <h3>Contact</h3>
+    </footer>
+</body>
+
+</html>
