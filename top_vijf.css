@@ -1,0 +1,35 @@
+h1{
+    font-family:cursive;
+    font-size: 150px;
+    color: darkgoldenrod;
+    padding: 5rem;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0,0,0);
+}
+h3{
+    font-size: 25px;
+    color: black;
+}
+.flex-container{
+    background-color: rgba(255,255,255);
+    line-height: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.Vienna {
+    padding: 2rem;
+}
+.Edinburgh{
+    padding: 2rem;
+}
+.Amsterdam{
+    padding: 2rem;
+}
+.Rome{
+    padding: 2rem;
+}
+.Paris{
+    padding: 2rem;
+}
